@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "vue2.0 components",
   "author": "zhouzhenhan <zhouzhenhan@example.com>",
+  "homepage": "https://github.com/happyzhanhan/login-box",
+  "bugs": {
+    "url": "https://github.com/happyzhanhan/login-box/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyzhanhan/login-box.git"
+  },
   "private": false,
   "main": "./dist/login-box.js",
   "scripts": {
