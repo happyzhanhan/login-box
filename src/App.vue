@@ -2,6 +2,7 @@
   <div id="app">
     <img src="./assets/logo.png">
     <Login></Login>
+    <Suggestion></Suggestion>
   </div>
 </template>
 
