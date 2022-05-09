@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- Suggestion 组件 -->
-    <Suggestion></Suggestion>
-    <!-- Login组件 -->
+    <img src="./assets/logo.png">
     <Login></Login>
-    <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
-import Suggestion from '../src/components/Suggestion.vue'
-import Login from '../src/components/Login.vue'
+import Login from './components/Login'
+import Suggestion from './components/Suggestion'
 export default {
-  name: 'App',
-  components: {Suggestion, Login}
+  name: 'app',
+  components: {
+    Login, Suggestion
+  },
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
+  }
 }
 </script>
 
@@ -26,5 +29,23 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: #42b983;
 }
 </style>

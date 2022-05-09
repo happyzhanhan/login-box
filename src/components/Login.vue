@@ -4,14 +4,14 @@
     登录
   </div>
   <div class="login-center clearfix">
-    <div class="login-center-img"><img src="../../static/imgs/name.png" /></div>
+    <div class="login-center-img"><img src="../assets/name.png" /></div>
     <div class="login-center-input">
       <input type="text" name="name" value="" placeholder="请输入您的用户名" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的用户名'" />
       <div class="login-center-input-text">用户名</div>
     </div>
   </div>
   <div class="login-center clearfix">
-    <div class="login-center-img"><img src="../../static/imgs/password.png" /></div>
+    <div class="login-center-img"><img src="../assets/password.png" /></div>
     <div class="login-center-input">
       <input type="password" name="" id="password" value="" placeholder="请输入您的密码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的密码'" onkeydown="keyup_submit(event);" />
       <div class="login-center-input-text">密码</div>
